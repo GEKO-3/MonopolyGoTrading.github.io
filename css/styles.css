@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'ggsansBold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/ggsansBold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'ggsansRegular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/ggsansRegular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'ggsansMedium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/ggsansMedium.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'ggsansSemibold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/ggsansSemibold.woff') format('woff');
+  }
+  
+  body {
+    font-family: 'ggsansRegular', sans-serif;
+  }
+  
