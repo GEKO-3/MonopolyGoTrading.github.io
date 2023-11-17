@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <style>
         body {
             padding-top: 100px;
             padding-bottom: 950px;
-            background-color: #313338; /* Set the background color of the body */
-            font-family: 'gg-sans', sans-serif; /* Apply 'gg-sans' as the font family for the entire page */
-            color: white; /* Set the text color to white for the entire page */
+            background-color: #313338;
+            font-family: 'gg-sans', sans-serif;
+            color: white;
             align-items: center;
             justify-content: center;
             height: 100vh;
+            margin: 0; /* Remove default margin */
         }
 
         h1 {
-            color: #fff; /* Change text color to white */
+            color: #fff;
         }
 
         p {
-            color: #fff; /* Change text color to white */
-            white-space: normal; /* Allow text to wrap naturally */
-            max-width: 300px; /* Limit the paragraph width to encourage wrapping */
-            text-align: center; /* Center the paragraph text horizontally */
+            color: #fff;
+            white-space: normal;
+            max-width: 300px;
+            text-align: center;
+            margin: 0 auto; /* Center the paragraph text horizontally */
         }
 
         ul {
@@ -35,23 +39,34 @@
         }
 
         button {
-            padding: 14px; /* Increase the padding for larger buttons */
-            font-family: 'ggsansSemibold', sans-serif; /* Set the font-family to 'ggsansSemibold' */
-            font-size: 18px; /* Increase the font size for button text */
-            width: 200px; /* Increase the width for larger buttons */
-            height: 60px; /* Increase the height for larger buttons */
-            text-align: left; /* Align button text to the left */
-            padding-left: 10px; /* Add padding to move the text to the right */
-            background-color: #5865f2; /* Change the button color to #5865f2 */
-            color: #fff; /* Change button text color to white */
+            padding: 14px;
+            font-family: 'ggsansSemibold', sans-serif;
+            font-size: 18px;
+            width: 100%; /* Make buttons fill the container width */
+            height: 60px;
+            text-align: left;
+            padding-left: 10px;
+            background-color: #5865f2;
+            color: #fff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the buttons */
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
 
         button:hover {
             background-color: #3572c9;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+
+            button {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
