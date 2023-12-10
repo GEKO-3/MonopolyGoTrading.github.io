@@ -8,23 +8,23 @@
         body {
             padding-top: 70px;
             padding-bottom: 1750px;
-            background-color: #313338; /* Set the background color of the body */
-            font-family: 'gg-sans', sans-serif; /* Apply 'gg-sans' as the font family for the entire page */
-            color: white; /* Set the text color to white for the entire page */
+            background-color: #313338;
+            font-family: 'gg-sans', sans-serif;
+            color: white;
             align-items: center;
             justify-content: center;
             height: 100vh;
         }
 
         header {
-            background-color: #313338; /* Set the header background color */
+            background-color: #313338;
             text-align: center;
-            padding: 0px; /* Add padding to the header */
+            padding: 0px;
         }
 
         .container {
             text-align: center;
-            margin: 20px; /* Smaller margin to reduce space between header and body */
+            margin: 20px;
         }
         .copyTextContainer {
             width: 300px;
@@ -33,23 +33,23 @@
             display: flex;
             flex-direction: column;
             position: relative;
-            margin-bottom: 20px; /* Add spacing between text boxes */
+            margin-bottom: 20px;
         }
         .label {
-            text-align: left; /* Align the label to the left */
-            font-weight: bold; /* Make the labels bold */
-            padding-bottom: 10px; /* Add more spacing between the label and text area */
+            text-align: left;
+            font-weight: bold;
+            padding-bottom: 5px;
         }
         .button:hover {
             background-color: #3572c9;
         }
         .copyText {
             width: 100%;
-            height: 100px; /* Fixed height in pixels */
+            height: 100px;
             padding: 10px;
-            background-color: #1e1f22; /* Set the text area background color */
-            color: #777a82; /* Set the text color to #777a82 inside the text areas */
-            border: none; /* Remove the outline or border */
+            background-color: #1e1f22;
+            color: #777a82;
+            border: none;
         }
         .copyButton {
             position: absolute;
@@ -57,11 +57,11 @@
             right: 0;
             padding: 10px 20px;
             cursor: pointer;
-            background-color: #5865f2; /* Set the button background color */
-            color: white; /* Set text color to white for the button */
-            border: none; /* Remove button border */
-            outline: none; /* Remove button outline */
-            border-radius: 5px; /* Add rounded corners */
+            background-color: #5865f2; 
+            color: white; 
+            border: none; 
+            outline: none; 
+            border-radius: 5px;
         }
         .back-button,
         .home-button {
@@ -70,12 +70,27 @@
             font-size: 14px;
             width: 200px;
             text-align: center;
-            background-color: #1e1f22;
+            background-color: rgb(34, 30, 32);
             color: #777a82;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /
+        }
+        .command {
+            position:absolute;
+            padding: 06px;
+            font-family:  'Courier New', Courier, monospace;
+            font-size: 12px;
+            width: 100px;
+            text-align: center;
+            background-color: #494949;
+            color: #e2e2e2;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            right: 0; /
         }
     </style>
 </head>
@@ -89,69 +104,69 @@
     <br></br>
 
         <div class="copyTextContainer">
-            <label class="label">LOWER REP GOES FIRST</label>
-            <textarea id="LOWER REP GOES FIRST" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('LOWER REP GOES FIRST')">Copy</button>
+            <label class="label">LOWER REP</label><div class="command">rep</div>
+            <textarea id="rep" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('rep')">Copy</button>
         </div>    
         <div class="copyTextContainer">
-            <label class="label">STOP SPAMMING</label>
-            <textarea id="STOP SPAMMING" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('STOP SPAMMING')">Copy</button>
+            <label class="label">STOP SPAMMING</label><div class="command">spam</div>
+            <textarea id="spam" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('spam')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">PLEASE SPECIFY 1:1</label>
-            <textarea id="PLEASE SPECIFY 1:1" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('PLEASE SPECIFY 1:1')">Copy</button>
+            <label class="label">PLEASE SPECIFY 1:1</label><div class="command">specify</div>
+            <textarea id="specify" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('specify')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">PLEASE SPECIFY STARS</label>
-            <textarea id="PLEASE SPECIFY STARS" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('PLEASE SPECIFY STARS')">Copy</button>
+            <label class="label">PLEASE SPECIFY STARS</label><div class="command">specify-stars</div>
+            <textarea id="specify-stars" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('specify-stars')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">BIDDING AUCTIONING</label>
-            <textarea id="BIDDING AUCTIONING" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('BIDDING AUCTIONING')">Copy</button>
+            <label class="label">BIDDING AUCTIONING</label><div class="command">dmoffer</div>
+            <textarea id="dmoffer" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('dmoffer')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">2:1 1-3 STARS</label>
-            <textarea id="2:1 1-3 STARS" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('2:1 1-3 STARS')">Copy</button>
+            <label class="label">2:1 1-3 STARS</label><div class="command">1-3-stars</div>
+            <textarea id="1-3-stars" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('1-3-stars')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">2:1 4 STARS</label>
-            <textarea id="2:1 4 STARS" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('2:1 4 STARS')">Copy</button>
+            <label class="label">2:1 4 STARS</label><div class="command">4-stars</div>
+            <textarea id="4-stars" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('4-stars')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">2:1 5 STARS</label>
-            <textarea id="2:1 5 STARS" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('2:1 5 STARS')">Copy</button>
+            <label class="label">2:1 5 STARS</label><div class="command">5-stars</div>
+            <textarea id="5-stars" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('5-stars')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">2ND NOTE</label>
-            <textarea id="2ND NOTE" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('2ND NOTE')">Copy</button>
+            <label class="label">2ND NOTE</label><div class="command">note2</div>
+            <textarea id="note2" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('note2')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">3RD NOTE / WARNING</label>
-            <textarea id="3RD NOTE / WARNING" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('3RD NOTE / WARNING')">Copy</button>
+            <label class="label">3RD NOTE / WARNING</label><div class="command">warn1</div>
+            <textarea id="warn1" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('warn1')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">LAST WARNING</label>
-            <textarea id="LAST WARNING" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('LAST WARNING')">Copy</button>
+            <label class="label">LAST WARNING</label><div class="command">warn2</div>
+            <textarea id="warn2" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('warn2')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">LF 5 OR 4</label>
-            <textarea id="LF 5 OR 4" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('LF 5 OR 4')">Copy</button>
+            <label class="label">LF 5 OR 4</label><div class="command">lf5-4</div>
+            <textarea id="lf5-4" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('lf5-4')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">LOCK AND CLOSE</label>
-            <textarea id="LOCK AND CLOSE" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('LOCK AND CLOSE')">Copy</button>
+            <label class="label">LOCK AND CLOSE</label><div class="command">end</div>
+            <textarea id="end" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('end')">Copy</button>
         </div>
     </div>
     <script src="script.js"></script>
