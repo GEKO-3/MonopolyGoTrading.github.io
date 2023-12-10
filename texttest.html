@@ -92,6 +92,11 @@
             box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
             right: 0; /
         }
+        text {
+            font-family:  'Courier New', Courier, monospace;
+            font-size: 12px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -159,14 +164,29 @@
             <button class="copyButton" onclick="copyToClipboard('warn2')">Copy</button>
         </div>
         <div class="copyTextContainer">
-            <label class="label">LF 5 OR 4</label><div class="command">lf5-4</div>
-            <textarea id="lf5-4" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('lf5-4')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
             <label class="label">LOCK AND CLOSE</label><div class="command">end</div>
             <textarea id="end" class="copyText" readonly></textarea>
             <button class="copyButton" onclick="copyToClipboard('end')">Copy</button>
+        </div>
+        <div class="copyTextContainer">
+            <label class="label">POSTING GOLDS IN 3</label><div class="command">gb3</div>
+            <textarea id="gb3" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('egb3')">Copy</button>
+        </div>
+        <div class="copyTextContainer">
+            <label class="label">POSTING GOLDS IN 4</label><div class="command">gb4</div>
+            <textarea id="gb4" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('gb4')">Copy</button>
+        </div>
+        <div class="copyTextContainer">
+            <label class="label">POSTING GOLDS IN 5</label><div class="command">gb5</div>
+            <textarea id="gb5" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('gb5')">Copy</button>
+        </div>
+        <div class="copyTextContainer">
+            <label class="label">vtimage</label><div class="command">vtimage</div>
+            <textarea id="vtimage" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('vtimage')">Copy</button>
         </div>
     </div>
     <script src="script.js"></script>
