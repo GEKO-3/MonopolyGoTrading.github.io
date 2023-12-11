@@ -11,6 +11,8 @@
 
     "dmoffer": "### Offer/DM type posts are prohibited in this server.\nYou always have to specify what you are offering and what you are looking for exactly.\n\nPlease take a look at the Trading Guidelines before posting.https://discord.com/channels/1103427931256131745/1178281986268352582",
 
+    "selling": "### Selling / Auctioning / Bidding type posts are prohibited in this server.\n\nPlease take a look at the Trading Guidelines before posting.https://discord.com/channels/1103427931256131745/1178281986268352582",
+
     "1-3-stars": "### This is the trading channel for 1:1 for 1-3⭐️s.\nIf you are looking for anything else (be it 2:1, Stars, 4⭐️s or 5⭐️s), you should post in these channels respectively.\nhttps://discord.com/channels/1103427931256131745/1129517817151107124 : For Trading  4⭐️ for  4⭐️ (1:1)\nhttps://discord.com/channels/1103427931256131745/1129518175189487667 : For Trading  4⭐️s for Stars or Multiple Stickers.\nhttps://discord.com/channels/1103427931256131745/1129517987536306318 : For Trading  5⭐️ for  5⭐️ (1:1)\nhttps://discord.com/channels/1103427931256131745/1129518242273177650 : For Trading  5⭐️s for Stars or Multiple Stickers.\n\nIf you have any questions about Trading Guidelines you can take a look over here:https://discord.com/channels/1103427931256131745/1178281986268352582\nPlease make sure you familiarize yourself with the rules of the server.",
 
     "4-stars": "### This is a 1:1 trading channel for 4⭐️s.\nIf you are looking for anything else (be it 2:1 or stars or any other rarity of stickers), you should post it in https://discord.com/channels/1103427931256131745/1129518175189487667 or https://discord.com/channels/1103427931256131745/1129518242273177650 respectively.\n\nIf you have any questions about Trading Guidelines, you can take a look over here:\nhttps://discord.com/channels/1103427931256131745/1178281986268352582\nPlease make sure you familiarize yourself with the rules of the server.",
@@ -33,15 +35,45 @@
 
     "scam": "### YOU ARE A SCAMMER, PLEASE FUCK OFF",
 
+    "sticker-recovery": "Select hamburger menu in-game\nSelect Contact Support\nOnce you are in the chat bubble 💬\nType: **I got scammed**\n----------------------------\nThen choose these options:\n\n- **Choose your Platform**\n\n- **More than 24 hours**\n\n- **Missing Rewards & Items**\n\n- **Album & Stickers**\n\n- **Stickers for Rewards**\n\n- **Explain [What Happened]**\n\n- **Send the Evidence**",
+  
     "vtimage": "https://cdn.discordapp.com/attachments/1179463701418496052/1183277420262989956/Verified_Trader_Help.png?ex=6587bff9&is=65754af9&hm=805145a94898a53ebb503a6fcdc5a14281a0ed5bbacfa7cf551270511864dd8b&",
 
-    "vtintro": "",
+    "vtintro": "We would appreciate your kind understanding to help us label your trades such as the following:\nTraded with [Member] (Oh My Gems for Silhouette Night)\n\n[insert your screenshots here]\n\nTraded with [Member] (Footprints for Plunderful)\n\n[insert your screenshots here]\n<https://cdn.discordapp.com/attachments/1148370897405743165/1183304532713812050/Verified_Trader_Help.jpg>",
 
-    "vt2": "It looks like you have earned enough trading Rep to apply for the Verified Trader Role.\n\nWe would like to see proof of 30 successful trades. All Trades must be 4<:MG_Star:1151577541786738769> or 5<:MG_Star:1151577541786738769> trades.\n\n1. **Traded with [Member]** (Twisted for Unwrapping)\n\n[insert your screenshots here]\n\n2. **Traded with [Member]** (Joyful Snow for Scottie's  Fort)\n\n[insert your screenshots here]",
+    "vtintro2": "It looks like you have earned enough trading Rep to apply for the Verified Trader Role.\n\nWe would like to see proof of 30 successful trades. All Trades must be 4<:MG_Star:1151577541786738769> or 5<:MG_Star:1151577541786738769> trades.\n\n1. **Traded with [Member]** (Twisted for Unwrapping)\n\n[insert your screenshots here]\n\n2. **Traded with [Member]** (Joyful Snow for Scottie's  Fort)\n\n[insert your screenshots here]",
+
+    "vtsuccess": "We have gone through all your proof of trades and we can confirm that you have:\n\n:white_check_mark: At least 50 reps - (XX rep)\n:white_check_mark: Have shown proof of 30 successful 4/5:star: trades in this server.\n\nWe are happy to announce that you are now qualified for the Verified Trade role. Please wait for an @Admin to assign your role.",
+
+    "vt-close": "Congratulations, you are now a verified trader! :MGT_VerifiedTrader:\n\nCan you lastly confirm you have read and understood our https://discord.com/channels/1103427931256131745/1178281986268352582 & hhttps://discord.com/channels/1103427931256131745/1175510897255526510/1179766744210997278 please :pray:\n\nPlease be advised that if any violations of these are found, there will be consequences & you’ll risk losing your VTR :heart:",
+
+    "vgt-close": "Going forward, in order to retain your role, please acknowledge that you understand the rules as follows:\n\n### :rotating_light: Important Rules to Follow:\n\n* No excessive trade requests—strictly 3 x 5-star stickers for 1 Gold (4/5 star).\n* Gifting/Donating is highly encouraged.\n* The party with the lower rep must send their entire end of the deal first (all stickers/stars).\n* Both parties must share their links in DMs before trading.\n* Clearly state your terms in your post—what you're offering and what you want.\n* Auction-style posts are a no-go; keep it clean and straightforward.\n* Selling stickers for real-world currency (crypto or fiat) is strictly prohibited.\n* No hijacking other people's posts.\n\nPlease be also be advised that once verified as a **Trusted Gold Trader**, you will be under the scrutiny of Staff members to ensure that the **__role is not being misused__** in the https://discord.com/channels/1103427931256131745/1171829973825376346 as well as https://discord.com/channels/1103427931256131745/1175510897255526510.\n\nAny violations will result in your role being revoked under the discretion of Staff.",
+  
+    "giveaway": "## CHOSEN STICKERS\n\n## NO. OF WINNERS\n\n## REQUIREMENTS\n\n## RUN TIME",
+
+    "minigame": "## GAME NAME\n\n**Hosted and sponsored by :** <@userid>\n\n**HOW THE GAME WORKS:**\n\n**POINT SYSTEM**\n\n## PRIZES\n- 1st Place:\n- 2nd Place:\n\nDon't forget to show appreciation in https://discord.com/channels/1103427931256131745/1123742330852225024",
+
+    "verify-welcome": "IMAGE LINK HERE",
+
+    "verify-howto": "- You will only have access to the <#1159672538016792576> channel for now.\n- Click on the green button that says “Verify”, you may only attempt to verify for a maximum of three (3) times.\n- You will receive a DM from **Double Counter** to confirm your verification; press “Click me to verify!”\n\nYou should have the **Member** role now and access to all channels now.\n\nLet us know if you are still undergoing some issues! IMAGE LINK HERE",
+
+    "verify-vpnios": "IMAGE LINK HERE",
+
+    "recovery-FBid": "IMAGE LINK HERE",
+
+    "recovery-userid": "IMAGE LINK HERE",
+
+    "recovery-userinfo": "To make things easier, have this filled in before you contact Scopely support:\n\n- UserID :\n- In-game Username :\n- In-game Link :\n- Email :\n- Dice Rolls :\n- Money :\n- Networth : \n- Device :\n- Account Creation Date :\n- In-game purchases :\n\nFor in-game purchases, send them through **SCREENSHOTS**",
+
+    "recovery-purchases": "IMAGE LINK HERE",
+
+    "recovery-contact": "**STEPS IN GETTING YOUR ACCOUNT BACK**\n\n1. Open up the account you're trying to recover even if it's Level 0 \n2. Click the Burger Menu on top right in-game :point_right:  ≡\n3. Press **Customer Service**\n4. Press **How can I contact Customer Support**\n5. Press :speech_left: **Chat with us**",
 
     "sleep": "Go to sleep, you have been up for so long",
 
     "sorry": "Sorry :pleading_face:",
+
+    "summer": "I love Summer so much, she is bald and so sexy!",
 
 
   "NULL END": "Just makimg things easy for myself again"
