@@ -109,85 +109,11 @@
     <br></br>
 
         <div class="copyTextContainer">
-            <label class="label">LOWER REP</label><div class="command">rep</div>
+            <label class="label">LOWER REP</label>
+            <button id="copycommand1" class="command" onclick="copyToClipboards(1)">rep</button>
             <textarea id="rep" class="copyText" readonly></textarea>
             <button class="copyButton" onclick="copyToClipboard('rep')">Copy</button>
         </div>    
-        <div class="copyTextContainer">
-            <label class="label">STOP SPAMMING</label><div class="command">spam</div>
-            <textarea id="spam" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('spam')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">PLEASE SPECIFY 1:1</label><div class="command">specify</div>
-            <textarea id="specify" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('specify')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">PLEASE SPECIFY STARS</label><div class="command">specify-stars</div>
-            <textarea id="specify-stars" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('specify-stars')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">BIDDING AUCTIONING</label><div class="command">dmoffer</div>
-            <textarea id="dmoffer" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('dmoffer')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">2:1 1-3 STARS</label><div class="command">1-3-stars</div>
-            <textarea id="1-3-stars" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('1-3-stars')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">2:1 4 STARS</label><div class="command">4-stars</div>
-            <textarea id="4-stars" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('4-stars')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">2:1 5 STARS</label><div class="command">5-stars</div>
-            <textarea id="5-stars" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('5-stars')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">2ND NOTE</label><div class="command">note2</div>
-            <textarea id="note2" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('note2')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">3RD NOTE / WARNING</label><div class="command">warn1</div>
-            <textarea id="warn1" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('warn1')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">LAST WARNING</label><div class="command">warn2</div>
-            <textarea id="warn2" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('warn2')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">LOCK AND CLOSE</label><div class="command">end</div>
-            <textarea id="end" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('end')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">POSTING GOLDS IN 3</label><div class="command">gb3</div>
-            <textarea id="gb3" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('egb3')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">POSTING GOLDS IN 4</label><div class="command">gb4</div>
-            <textarea id="gb4" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('gb4')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">POSTING GOLDS IN 5</label><div class="command">gb5</div>
-            <textarea id="gb5" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('gb5')">Copy</button>
-        </div>
-        <div class="copyTextContainer">
-            <label class="label">vtimage</label><div class="command">vtimage</div>
-            <textarea id="vtimage" class="copyText" readonly></textarea>
-            <button class="copyButton" onclick="copyToClipboard('vtimage')">Copy</button>
-        </div>
     </div>
     <script src="script.js"></script>
     
@@ -198,6 +124,12 @@
             copyText.select();
             document.execCommand("copy");
         }
+    }
+    function copyToClipboards(index) {
+            const copycommand = document.getElementById(`copycommand${index}`);
+            console.log(copycommand)
+            copycommand.select();
+            document.execCommand("copy");
     }
     </script>
 </body>
