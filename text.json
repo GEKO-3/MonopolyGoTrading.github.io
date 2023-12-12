@@ -75,7 +75,7 @@
 
     "purchase-ios": "IMAGE LINK HERE",
 
-    "purchase-android": "TEXT HERE",
+    "purchase-android": "## How to find recent purchases via Android\n\n- Look for an email receipt from: **googleplay-noreply@google.com**\n- Receipt should be titled: **You've made a purchase from Scopely Inc on Google Play**\n- Look for the following: **Order Number, Order Date, and Payment Method.**",
 
     "recovery-contact": "**STEPS IN GETTING YOUR ACCOUNT BACK**\n\n1. Open up the account you're trying to recover even if it's Level 0 \n2. Click the Burger Menu on top right in-game :point_right:  ≡\n3. Press **Customer Service**\n4. Press **How can I contact Customer Support**\n5. Press :speech_left: **Chat with us**",
 
