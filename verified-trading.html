@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✅| Verified Trading</title>
+    <style>
+        body {
+            padding-top: 70px;
+            padding-bottom: 1750px;
+            background-color: #313338;
+            font-family: 'gg-sans', sans-serif;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #313338;
+            text-align: center;
+            padding: 0px;
+        }
+
+        .container {
+            text-align: center;
+            margin: 20px;
+        }
+        .copyTextContainer {
+            width: 300px;
+            margin: 0 auto;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .label {
+            text-align: left;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        .button:hover {
+            background-color: #3572c9;
+        }
+        .copyText {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            background-color: #1e1f22;
+            color: #777a82;
+            border: none;
+        }
+        .copyButton {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #5865f2; 
+            color: white; 
+            border: none; 
+            outline: none; 
+            border-radius: 5px;
+        }
+        .back-button,
+        .home-button {
+            padding: 6px;
+            font-family: 'ggsansSemibold', sans-serif;
+            font-size: 14px;
+            width: 200px;
+            text-align: center;
+            background-color: rgb(34, 30, 32);
+            color: #777a82;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+        }
+        .command {
+            position:absolute;
+            padding: 6px;
+            font-family:  'Courier New', Courier, monospace;
+            font-size: 12px;
+            width: 110px;
+            text-align: center;
+            background-color: #494949;
+            color: #e2e2e2;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            right: 0; /
+        }
+        text {
+            font-family:  'Courier New', Courier, monospace;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>✅| Verified Trading</h1>
+        <h5>MONOPOLY GO Trading</h5>
+        <a href="trading-index.html" class="back-button">Back</a>
+        <a href="index.html" class="back-button">Home</a>
+    </header>
+    <br></br>
+    <div class="copyTextContainer">
+        <label class="label">LOWER REP GOES FIRST</label>
+        <button id="copyCommand1" class="command" onclick="CommandsCopy(1)">lower-rep</button>
+        <textarea id="lower-rep" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('lower-rep')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">STOP SPAMMING</label>
+        <button id="copyCommand3" class="command" onclick="CommandsCopy(3)">spam</button>
+        <textarea id="spam" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('spam')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">SPECIFY TRADE</label>
+        <button id="copyCommand4" class="command" onclick="CommandsCopy(4)">specify</button>
+        <textarea id="specify" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('specify')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">NO DM OFFERS</label>
+        <button id="copyCommand6" class="command" onclick="CommandsCopy(6)">dmoffer</button>
+        <textarea id="dmoffer" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('dmoffer')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">NO SELLING / BID</label>
+        <button id="copyCommand7" class="command" onclick="CommandsCopy(7)">selling</button>
+        <textarea id="selling" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('selling')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">2ND NOTE</label>
+        <button id="copyCommand11" class="command" onclick="CommandsCopy(11)">note2</button>
+        <textarea id="note2" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('note2')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">1ST WARNING</label>
+        <button id="copyCommand12" class="command" onclick="CommandsCopy(12)">warn1</button>
+        <textarea id="warn1" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('warn1')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">FINAL WARNING</label>
+        <button id="copyCommand13" class="command" onclick="CommandsCopy(13)">warn2</button>
+        <textarea id="warn2" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('warn2')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">LOCK & CLOSE POST</label>
+        <button id="copyCommand17" class="command" onclick="CommandsCopy(17)">end</button>
+        <textarea id="end" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('end')">Copy</button>
+    </div>
+    <script src="script.js"></script>
+    
+    <script>
+    function copyToClipboard(id) {
+        const copyText = document.getElementById(id);
+        if (copyText) {
+            copyText.select();
+            document.execCommand("copy");
+        }
+    }   
+    function CommandsCopy(index) {
+        const copyCommand = document.getElementById(`copyCommand${index}`);
+        const commandText = copyCommand.innerText || copyCommand.textContent;
+        const tempTextarea = document.createElement("textarea");
+            tempTextarea.value = commandText;
+            document.body.appendChild(tempTextarea);
+            tempTextarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempTextarea);
+    }
+
+    </script> 
+</body>
+<header>
+    <a href="trading-index.html" class="back-button">Back</a>
+    <a href="index.html" class="back-button">Home</a>
+</header>
+</html>
