@@ -1,7 +1,11 @@
 {
   "NULL": "Just amking things easy for myself",
 
-    "rep": "### The person with Lower REP always sends first.\nAlways keep this in mind when trading. Details about the Trading Rep system is in https://discord.com/channels/1103427931256131745/1178281986268352582",
+    "announcement": "# The new `/info` command!\r\n\r\n**What is it?**\r\nMost/all of you have seen <@471096018843336717>'s very useful [staff help site](https://geko-3.github.io/MonopolyGoTrading.github.io/) that contains a number of generic staff messages that you can send to members to warn/remind them of things. I've seen how helpful this has been and I think it's amazing!\r\n\r\n<@654424367660269570> made a separate request to have the most common warnings added to `-prefix` commands that would let you send those messages directly from server. I took this one step further, as you know I love to improve <@1176328980798906428>, and created the `/info` command.\r\n\r\n\r\n**How do I use it?**\r\nThis command will let you send messages from Geko's site directly in the server, anonymously through the <@1176328980798906428>. Here's how it works:\r\n\r\n1. Visit the [staff help site](https://geko-3.github.io/MonopolyGoTrading.github.io/) to learn the names of the commands you can use.\r\n2. In the chat you wish to send the message type: `/info get:`\r\n3. Within the `get` option, type the name of the message you wish to send, for example `/info get: spam`\r\n4. Send the message\r\n\r\nYou will then be shown `Cancel` and `Send Message` buttons. This gives you a chance to review the message before sending it, in case it's not what you wanted. You will also see which channel it is going to send in (if you haven't changed it - see below).\r\n\r\nWhen you are ready to send the message, press the big green `Send Message` button and that message will be sent by the bot to the channel. If you decide not to send it, you can either press `Cancel` to remove it or leave it. After 60 seconds the buttons will be removed and the message will expire.\r\n\r\n**The command also lets you make a couple of changes too:**\r\n\r\n- You can add the `member:` option to @ the user. This will add the \"Hey <@227902035024936961>\" to the top of the message.\r\n- You can add the `channel:` option to send the message to a channel of your choice, if you want to send it to a channel other than where you've type the command.\r\n\r\n<@471096018843336717> and <@654424367660269570> have put a lot of work into rewriting the help site to make this command work, so please let them know their work is highly appreciated!",
+
+    "lower-rep": "### The person with Lower REP always sends first.\nAlways keep this in mind when trading. Details about the Trading Rep system is in https://discord.com/channels/1103427931256131745/1178281986268352582",
+
+    "rep": "Information on our trading reputation system is [below:](https://cdn.discordapp.com/attachments/1175451636638941254/1183934382734594209/image.png?ex=658a23d1&is=6577aed1&hm=0a26079df7fee6ad4f6c85f0bd354bfd60bfbdbb396b281edd24c36bb8968aa1&)",
 
     "spam": "### STOP SPAMMING \nIf you continue to Spam you will be Timed out.",
 
@@ -33,15 +37,17 @@
 
     "end": "Im going to lock and close this post. Please keep the https://discord.com/channels/1103427931256131745/1178281986268352582 in mind.",
 
-    "scam": "### YOU ARE A SCAMMER, PLEASE FUCK OFF",
+    "scam-intro": "Thank you for contacting the staff team using our ticket system. We're sorry to hear that you have been scammed!\n\nPlease provide the following information:\n\n- The scammer's Discord name (either their @ or UserID)\n- The scammer's in-game link\n- The scammer's in-game username\n- Any chat logs with the scammer\n- Screenshots or screen recordings proving you have been scammed\n- Any information on the agreed trade",
+
+    "scammer": "### YOU ARE A SCAMMER, PLEASE FUCK OFF",
 
     "sticker-recovery": "Select hamburger menu in-game\nSelect Contact Support\nOnce you are in the chat bubble 💬\nType: **I got scammed**\n----------------------------\nThen choose these options:\n\n- **Choose your Platform**\n\n- **More than 24 hours**\n\n- **Missing Rewards & Items**\n\n- **Album & Stickers**\n\n- **Stickers for Rewards**\n\n- **Explain [What Happened]**\n\n- **Send the Evidence**",
   
     "vt-image": "https://cdn.discordapp.com/attachments/1179463701418496052/1183277420262989956/Verified_Trader_Help.png?ex=6587bff9&is=65754af9&hm=805145a94898a53ebb503a6fcdc5a14281a0ed5bbacfa7cf551270511864dd8b&",
 
-    "vt-intro": "We would appreciate your kind understanding to help us label your trades such as the following:\n\nTraded with [Member] (Oh My Gems for Silhouette Night)\n\n[insert your screenshots here]\n\nTraded with [Member] (Footprints for Plunderful)\n\n[insert your screenshots here]\n\nSee the [image](https://cdn.discordapp.com/attachments/1148370897405743165/1183304532713812050/Verified_Trader_Help.jpg) below for reference.",
+    "vgt-intro": "We would appreciate your kind understanding to help us label your trades such as the following:\n\nTraded with [Member] (Oh My Gems for Silhouette Night)\n\n[insert your screenshots here]\n\nTraded with [Member] (Footprints for Plunderful)\n\n[insert your screenshots here]\n\nSee the [image](https://cdn.discordapp.com/attachments/1148370897405743165/1183304532713812050/Verified_Trader_Help.jpg) below for reference.",
 
-    "vt-intro2": "It looks like you have earned enough trading Rep to apply for the Verified Trader Role.\n\nWe would like to see proof of 30 successful trades. All Trades must be 4<:MG_Star:1151577541786738769> or 5<:MG_Star:1151577541786738769> trades.\n\n1. **Traded with [Member]** (Twisted for Unwrapping)\n\n[insert your screenshots here]\n\n2. **Traded with [Member]** (Joyful Snow for Scottie's  Fort)\n\n[insert your screenshots here]",
+    "vt-intro": "It looks like you have earned enough trading Rep to apply for the Verified Trader Role.\n\nWe would like to see proof of 30 successful trades. All Trades must be 4<:MG_Star:1151577541786738769> or 5<:MG_Star:1151577541786738769> trades.\n\n1. **Traded with [Member]** (Twisted for Unwrapping)\n\n[insert your screenshots here]\n\n2. **Traded with [Member]** (Joyful Snow for Scottie's  Fort)\n\n[insert your screenshots here]",
 
     "vt-success": "We have gone through all your proof of trades and we can confirm that you have:\n\n:white_check_mark: At least 50 reps - (XX rep)\n:white_check_mark: Have shown proof of 30 successful 4/5:star: trades in this server.\n\nWe are happy to announce that you are now qualified for the Verified Trade role. Please wait for an @Admin to assign your role.",
 
@@ -55,17 +61,21 @@
 
     "verify-welcome": "IMAGE LINK HERE",
 
+    "verify-dc": "Please click on the green button that says “Verify”- no more than 3 times.\n\n- You will receive a DM from Double Counter to confirm your verification.\n- Press: Click me to verify!\n\nLet us know if you still have any issues😄",
+
     "verify-howto": "- You will only have access to the <#1159672538016792576> channel for now.\n- Click on the green button that says “Verify”, you may only attempt to verify for a maximum of three (3) times.\n- You will receive a DM from **Double Counter** to confirm your verification; press “Click me to verify!”\n\nYou should have the **Member** role now and access to all channels now.\n\nLet us know if you are still undergoing some issues! IMAGE LINK HERE",
 
     "verify-vpnios": "IMAGE LINK HERE",
 
-    "recovery-FBid": "IMAGE LINK HERE",
+    "recovery-FBid": "Steps on how to recover your MGo ID via Facebook [below:](https://cdn.discordapp.com/attachments/1175451636638941254/1183982858759577600/image.png?ex=658a50f6&is=6577dbf6&hm=aa828811b29ce0ac11c8bf0e8a7ec0a41c9378d6d4d1fe5ac4c1566c880c7ed9&)",
 
-    "recovery-userid": "IMAGE LINK HERE",
+    "recovery-userid": "Here is an example image of where your user ID is located in Monopoly go. [See below:](https://cdn.discordapp.com/attachments/1175451636638941254/1183914471555604621/image.png?ex=658a1146&is=65779c46&hm=880f54ebd840d567562ebe062666e8c5333044a2241f3553c76a80c8a08511ed&)",
 
     "recovery-userinfo": "To make things easier, have this filled in before you contact Scopely support:\n\n- UserID :\n- In-game Username :\n- In-game Link :\n- Email :\n- Dice Rolls :\n- Money :\n- Networth : \n- Device :\n- Account Creation Date :\n- In-game purchases :\n\nFor in-game purchases, send them through **SCREENSHOTS**",
 
-    "recovery-purchases": "IMAGE LINK HERE",
+    "purchase-ios": "How to find recent purchases via IOS [below:](https://cdn.discordapp.com/attachments/1175451636638941254/1183982764685541387/image.png?ex=658a50e0&is=6577dbe0&hm=ccf4a16481aebe8c7c352d04c42da9d5c5d2fa01aef6c3b6507ed7351b55148a&)",
+
+    "purchase-android": "## How to find recent purchases via Android\n\n- Look for an email receipt from: **googleplay-noreply@google.com**\n- Receipt should be titled: **You've made a purchase from Scopely Inc on Google Play**\n- Look for the following: **Order Number, Order Date, and Payment Method.**",
 
     "recovery-contact": "**STEPS IN GETTING YOUR ACCOUNT BACK**\n\n1. Open up the account you're trying to recover even if it's Level 0 \n2. Click the Burger Menu on top right in-game :point_right:  ≡\n3. Press **Customer Service**\n4. Press **How can I contact Customer Support**\n5. Press :speech_left: **Chat with us**",
 
