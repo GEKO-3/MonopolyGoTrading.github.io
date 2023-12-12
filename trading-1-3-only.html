@@ -6,25 +6,25 @@
     <title>⭐️| 1-3 Only</title>
     <style>
         body {
-            padding-top: 100px;
-            padding-bottom: 950px;
-            background-color: #313338; /* Set the background color of the body */
-            font-family: 'gg-sans', sans-serif; /* Apply 'gg-sans' as the font family for the entire page */
-            color: white; /* Set the text color to white for the entire page */
+            padding-top: 70px;
+            padding-bottom: 1750px;
+            background-color: #313338;
+            font-family: 'gg-sans', sans-serif;
+            color: white;
             align-items: center;
             justify-content: center;
             height: 100vh;
         }
 
         header {
-            background-color: #313338; /* Set the header background color */
+            background-color: #313338;
             text-align: center;
-            padding: 5px; /* Add padding to the header */
+            padding: 0px;
         }
 
         .container {
             text-align: center;
-            margin: 20px; /* Smaller margin to reduce space between header and body */
+            margin: 20px;
         }
         .copyTextContainer {
             width: 300px;
@@ -33,23 +33,23 @@
             display: flex;
             flex-direction: column;
             position: relative;
-            margin-bottom: 20px; /* Add spacing between text boxes */
+            margin-bottom: 20px;
         }
         .label {
-            text-align: left; /* Align the label to the left */
-            font-weight: bold; /* Make the labels bold */
-            padding-bottom: 10px; /* Add more spacing between the label and text area */
+            text-align: left;
+            font-weight: bold;
+            padding-bottom: 5px;
         }
         .button:hover {
             background-color: #3572c9;
         }
         .copyText {
             width: 100%;
-            height: 100px; /* Fixed height in pixels */
+            height: 100px;
             padding: 10px;
-            background-color: #1e1f22; /* Set the text area background color */
-            color: #777a82; /* Set the text color to #777a82 inside the text areas */
-            border: none; /* Remove the outline or border */
+            background-color: #1e1f22;
+            color: #777a82;
+            border: none;
         }
         .copyButton {
             position: absolute;
@@ -57,11 +57,11 @@
             right: 0;
             padding: 10px 20px;
             cursor: pointer;
-            background-color: #5865f2; /* Set the button background color */
-            color: white; /* Set text color to white for the button */
-            border: none; /* Remove button border */
-            outline: none; /* Remove button outline */
-            border-radius: 5px; /* Add rounded corners */
+            background-color: #5865f2; 
+            color: white; 
+            border: none; 
+            outline: none; 
+            border-radius: 5px;
         }
         .back-button,
         .home-button {
@@ -70,127 +70,73 @@
             font-size: 14px;
             width: 200px;
             text-align: center;
-            background-color: #fff;
-            color: #000;
+            background-color: rgb(34, 30, 32);
+            color: #777a82;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+        }
+        .command {
+            position:absolute;
+            padding: 6px;
+            font-family:  'Courier New', Courier, monospace;
+            font-size: 12px;
+            width: 110px;
+            text-align: center;
+            background-color: #494949;
+            color: #e2e2e2;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            right: 0; /
+        }
+        text {
+            font-family:  'Courier New', Courier, monospace;
+            font-size: 12px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>⭐️| 1-3 Only</h1>
+        <h5>MONOPOLY GO Trading</h5>
         <a href="trading-index.html" class="back-button">Back</a>
         <a href="index.html" class="back-button">Home</a>
     </header>
     <br></br>
+
         <div class="copyTextContainer">
-            <label for="copyText1" class="label">PLEASE SPECIFY</label>
-            <textarea id="copyText1" class="copyText" readonly>Hey @
-### You always have to specify what you are offering and what you are looking for exactly. 
-What sticker(s) you are offering and what sticker(s) you want.
-                
-Please take a look at the Trading Guidelines if you have any questions.
-https://discord.com/channels/1103427931256131745/1178281986268352582</textarea>
-            <button class="copyButton" onclick="copyToClipboard(1)">Copy</button>
-        </div>
-        
-        <!-- Text Box 2 -->
-        <div class="copyTextContainer">
-            <label for="copyText2" class="label">LOWER REP GOES FIRST</label>
-            <textarea id="copyText2" class="copyText" readonly>## REMINDER
-### The person with Lower REP always sends first.
-Always keep this in mind when trading.
-Details about the Trading Rep system is in here https://discord.com/channels/1103427931256131745/1178281986268352582</textarea>
-            <button class="copyButton" onclick="copyToClipboard(2)">Copy</button>
-        </div>
-        
-        <!-- Text Box 3 -->
-        <div class="copyTextContainer">
-            <label for="copyText3" class="label">LF 4 OR 5-STAR</label>
-            <textarea id="copyText3" class="copyText" readonly>Hey @
-### This is the trading channel for 1-3⭐️s.
-Trading for 5⭐️s in this channel is against our Trading Guidelines.
-                
-If you are looking for anything else (be it 4⭐️s or 5⭐️s), you should post in these channels respectively.
-https://discord.com/channels/1103427931256131745/1129517817151107124 : For Trading  4⭐️ for  4⭐️ (1:1)
-https://discord.com/channels/1103427931256131745/1129518175189487667 : For Trading  4⭐️s for Stars or Multiple Stickers.                
-https://discord.com/channels/1103427931256131745/1129517987536306318 : For Trading  5⭐️ for  5⭐️ (1:1)
-https://discord.com/channels/1103427931256131745/1129518242273177650 : For Trading  5⭐️s for Stars or Multiple Stickers.
-                
-If you have any questions about Trading Guidelines you can take a look over here:
-https://discord.com/channels/1103427931256131745/1178281986268352582
-Please make sure you familiarize yourself with the rules of the server.</textarea>
-            <button class="copyButton" onclick="copyToClipboard(3)">Copy</button>
+            <label class="label">lower-rep</label>
+            <button id="copyCommand1" class="command" onclick="CommandsCopy(1)">lower-rep</button>
+            <textarea id="lower-rep" class="copyText" readonly></textarea>
+            <button class="copyButton" onclick="copyToClipboard('lower-rep')">Copy</button>
         </div>
 
-        <!-- Text Box 4 -->
-        <div class="copyTextContainer">
-            <label for="copyText4" class="label">BIDDING / AUCTIONING</label>
-            <textarea id="copyText4" class="copyText" readonly>Hey @
-### Offer/DM type posts are prohibited in this server. 
-You always have to specify what you are offering and what you are looking for exactly. (What Sticker(s) you are offering and what Sticker(s) card you want)
-                
-Please take a look at the Trading Guidelines before posting.
-https://discord.com/channels/1103427931256131745/1178281986268352582</textarea>
-            <button class="copyButton" onclick="copyToClipboard(4)">Copy</button>
-        </div>
-
-        <!-- Text Box 5 -->
-        <div class="copyTextContainer">
-            <label for="copyText5" class="label">2ND NOTE</label>
-            <textarea id="copyText5" class="copyText" readonly>@
-It looks like you have gone against our Trading Guidelines before.
-### Please be noted that this will be your 2nd Note.
-If you go against our guidelines a third time you will be WARNED.</textarea>
-            <button class="copyButton" onclick="copyToClipboard(5)">Copy</button>
-        </div>
-
-        <!-- Text Box 6 -->
-        <div class="copyTextContainer">
-            <label for="copyText6" class="label">FIRST WARNING</label>
-            <textarea id="copyText6" class="copyText" readonly>Hey @
-It looks like you have gone against our Trading Guidelines A Few times before.
-### Please be Warned not to do this again.</textarea>
-            <button class="copyButton" onclick="copyToClipboard(6)">Copy</button>
-        </div>
-
-        <!-- Text Box 7 -->
-        <div class="copyTextContainer">
-            <label for="copyText7" class="label">LAST WARNING</label>
-            <textarea id="copyText7" class="copyText" readonly>Hey @
-It looks like you have gone against our Trading Guidelines A Few times before.
-And it looks like you've been issued a Warning as well.
-### This will be your LAST WARNING. Please DO NOT do this again.
-if you go against the Trading Guidelines of the server again, or you will be KICKED</textarea>
-            <button class="copyButton" onclick="copyToClipboard(7)">Copy</button>
-        </div>
-
-        <!-- Text Box 8 -->
-        <div class="copyTextContainer">
-            <label for="copyText8" class="label">GOOD ENDING</label>
-            <textarea id="copyText8" class="copyText" readonly>Im gonna lock and close this post. But feel free to post in the appropriate channels. Please keep the https://discord.com/channels/1103427931256131745/1178281986268352582 in Mind.</textarea>
-            <button class="copyButton" onclick="copyToClipboard(8)">Copy</button>
-        </div>
-
-        <!-- Text Box 9 -->
-        <div class="copyTextContainer">
-            <label for="copyText9" class="label">BAD ENDING</label>
-            <textarea id="copyText9" class="copyText" readonly>Im gonna lock and close this post. Please keep the https://discord.com/channels/1103427931256131745/1178281986268352582 in Mind.</textarea>
-            <button class="copyButton" onclick="copyToClipboard(9)">Copy</button>
-        </div>
-
-    </div>
-
+    <script src="script.js"></script>
+    
     <script>
-        function copyToClipboard(index) {
-            const copyText = document.getElementById(`copyText${index}`);
+    function copyToClipboard(id) {
+        const copyText = document.getElementById(id);
+        if (copyText) {
             copyText.select();
             document.execCommand("copy");
         }
-    </script>
+    }   
+    function CommandsCopy(index) {
+        const copyCommand = document.getElementById(`copyCommand${index}`);
+        const commandText = copyCommand.innerText || copyCommand.textContent;
+        const tempTextarea = document.createElement("textarea");
+            tempTextarea.value = commandText;
+            document.body.appendChild(tempTextarea);
+            tempTextarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempTextarea);
+    }
+
+    </script> 
 </body>
 <header>
     <a href="trading-index.html" class="back-button">Back</a>
