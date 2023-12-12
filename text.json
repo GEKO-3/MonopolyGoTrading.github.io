@@ -73,7 +73,9 @@
 
     "recovery-userinfo": "To make things easier, have this filled in before you contact Scopely support:\n\n- UserID :\n- In-game Username :\n- In-game Link :\n- Email :\n- Dice Rolls :\n- Money :\n- Networth : \n- Device :\n- Account Creation Date :\n- In-game purchases :\n\nFor in-game purchases, send them through **SCREENSHOTS**",
 
-    "recovery-purchases": "IMAGE LINK HERE",
+    "purchase-ios": "IMAGE LINK HERE",
+
+    "purchase-android": "TEXT HERE",
 
     "recovery-contact": "**STEPS IN GETTING YOUR ACCOUNT BACK**\n\n1. Open up the account you're trying to recover even if it's Level 0 \n2. Click the Burger Menu on top right in-game :point_right:  ≡\n3. Press **Customer Service**\n4. Press **How can I contact Customer Support**\n5. Press :speech_left: **Chat with us**",
 
