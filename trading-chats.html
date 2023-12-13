@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎅| Prestige Trading</title>
+    <title>💬| Trading Chats</title>
     <style>
         body {
             padding-top: 70px;
@@ -101,16 +101,40 @@
 </head>
 <body>
     <header>
-        <h1>🎅| Prestige Trading</h1>
+        <h1>💬| Trading Chats</h1>
         <h5>MONOPOLY GO Trading</h5>
         <a href="trading-index.html" class="back-button">Back</a>
         <a href="index.html" class="back-button">Home</a>
     </header>
     <br></br>
     <div class="copyTextContainer">
+        <label class="label">TRADING IN GENERAL CHAT</label>
+        <button id="copyCommand1" class="command" onclick="CommandsCopy(1)">general</button>
+        <textarea id="general" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('lower-rep')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">VT'S TRADING IN VT-GENERAL</label>
+        <button id="copyCommand1" class="command" onclick="CommandsCopy(1)">vt-gen</button>
+        <textarea id="vt-gen" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('lower-rep')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">TRADING REPUTATION</label>
+        <button id="copyCommand1" class="command" onclick="CommandsCopy(1)">rep</button>
+        <textarea id="rep" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('lower-rep')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
         <label class="label">LOWER REP GOES FIRST</label>
         <button id="copyCommand1" class="command" onclick="CommandsCopy(1)">lower-rep</button>
         <textarea id="lower-rep" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('lower-rep')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">FUCK OFF SCAMMER</label>
+        <button id="copyCommand1" class="command" onclick="CommandsCopy(1)">scammer</button>
+        <textarea id="scammer" class="copyText" readonly></textarea>
         <button class="copyButton" onclick="copyToClipboard('lower-rep')">Copy</button>
     </div>
     <script src="script.js"></script>
