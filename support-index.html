@@ -11,11 +11,12 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            height: 150vh;
         }
 
         h1 {
             color: #fff; /* Change text color to white */
+            text-align: center;
         }
 
         p {
@@ -35,23 +36,36 @@
         }
 
         button {
-            padding: 14px; /* Increase the padding for larger buttons */
+            padding: 5px; /* Increase the padding for larger buttons */
             font-family: 'ggsansSemibold', sans-serif; /* Set the font-family to 'ggsansSemibold' */
-            font-size: 18px; /* Increase the font size for button text */
+            font-size: 19px; /* Increase the font size for button text */
             width: 200px; /* Increase the width for larger buttons */
             height: 60px; /* Increase the height for larger buttons */
-            text-align: left; /* Align button text to the left */
-            padding-left: 10px; /* Add padding to move the text to the right */
             background-color: #5865f2; /* Change the button color to #5865f2 */
             color: #fff; /* Change button text color to white */
             border: none;
             border-radius: 5px;
             cursor: pointer;
             box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the buttons */
+            text-align: center;
         }
 
         button:hover {
             background-color: #3572c9;
+        }
+        .back-button,
+        .home-button {
+            padding: 6px;
+            font-family: 'ggsansSemibold', sans-serif;
+            font-size: 14px;
+            width: 60px;
+            text-align: center;
+            background-color: rgb(34, 30, 32);
+            color: #777a82;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
         }
     </style>
 </head>
@@ -66,4 +80,5 @@
         <li><a href="giveaway-tickets.html"><button>Giveaway Tickets</button></a></li>
     </ul>
 </body>
+<a href="index.html" class="back-button">Home</a>
 </html>
