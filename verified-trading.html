@@ -33,9 +33,12 @@
             display: flex;
             flex-direction: column;
             position: relative;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
         }
         .label {
+            position: relative;
+            top: 30px;
+            left: 10px;
             text-align: left;
             font-weight: bold;
             padding-bottom: 5px;
@@ -78,8 +81,10 @@
             box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
         }
         .command {
-            position:absolute;
-            padding: 6px;
+            position:relative;
+            top: 130px;
+            left: 120px;
+            padding: 10px;
             font-family:  'Courier New', Courier, monospace;
             font-size: 12px;
             width: 110px;
@@ -87,7 +92,7 @@
             background-color: #494949;
             color: #e2e2e2;
             border: none;
-            border-radius: 5px;
+            border-radius: 0px;
             cursor: pointer;
             box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
             right: 0; /
@@ -106,7 +111,6 @@
         <a href="trading-index.html" class="back-button">Back</a>
         <a href="index.html" class="back-button">Home</a>
     </header>
-    <br></br>
     <div class="copyTextContainer">
         <label class="label">TRADING IN VT-GENERAL</label>
         <button id="copyCommand1" class="command" onclick="CommandsCopy(1)">vt-gen</button>
@@ -191,6 +195,7 @@
     </script> 
 </body>
 <header>
+    <br><br><br>
     <a href="trading-index.html" class="back-button">Back</a>
     <a href="index.html" class="back-button">Home</a>
 </header>
