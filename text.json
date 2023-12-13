@@ -77,7 +77,7 @@
 
     "recovery-userinfo": "To make things easier, have this filled in before you contact Scopely support:\n\n- UserID :\n- In-game Username :\n- In-game Link :\n- Email :\n- Dice Rolls :\n- Money :\n- Networth : \n- Device :\n- Account Creation Date :\n- In-game purchases :\n\nFor in-game purchases, send them through **SCREENSHOTS**",
 
-    "purchase-ios": "How to find recent purchases via IOS [below:](https://cdn.discordapp.com/attachments/1175451636638941254/1183982764685541387/image.png?ex=658a50e0&is=6577dbe0&hm=ccf4a16481aebe8c7c352d04c42da9d5c5d2fa01aef6c3b6507ed7351b55148a&)",
+    "purchase-ios": "## How to find recent purchases via IOS [below:](https://cdn.discordapp.com/attachments/1175451636638941254/1183982764685541387/image.png?ex=658a50e0&is=6577dbe0&hm=ccf4a16481aebe8c7c352d04c42da9d5c5d2fa01aef6c3b6507ed7351b55148a&)",
 
     "purchase-android": "## How to find recent purchases via Android\n\n- Look for an email receipt from: **googleplay-noreply@google.com**\n- Receipt should be titled: **You've made a purchase from Scopely Inc on Google Play**\n- Look for the following: **Order Number, Order Date, and Payment Method.**",
 
