@@ -53,7 +53,9 @@
 
     "vt-intro": "It looks like you have earned enough trading Rep to apply for the Verified Trader Role.\n\n- We would like to see proof of 30 successful trades./n- All Trades must be 4<:MG_Star:1151577541786738769> or 5<:MG_Star:1151577541786738769> trades sent by __you__.\n\n1. **Traded with [Member]** (Twisted for Unwrapping)\n\n[insert your screenshots here]\n\n2. **Traded with [Member]** (Joyful Snow for Scottie's  Fort)\n\n[insert your screenshots here]",
 
-    "vt-success": "We have gone through all your proof of trades and we can confirm that you have:\n\n:white_check_mark: At least 50 reps - (XX rep)\n:white_check_mark: Have shown proof of 30 successful 4/5:star: trades in this server.\n\nWe are happy to announce that you are now qualified for the Verified Trade role. Please wait for an @Admin to assign your role.",
+    "vt-success": "We have gone through all your proof of trades and we can confirm that you have:\n\n- :white_check_mark: At least 50 reps - (XX rep)\n- :white_check_mark: Have shown proof of 30 successful 4/5:star: trades in this server.\n\nWe are happy to announce that you are now qualified for the Verified Trader role.\n\nPlease wait for an @Admin to assign your role.",
+
+    "vgt-success": "We have gone through all your proof of trades and we can confirm that you have:\n\n- :white_check_mark: At least 65 reps - (XX rep)\n- :white_check_mark: Have shown proof of 5 successful 4/5:star: GOLD trades in this server.\n\nWe are happy to announce that you are now qualified for the Verified GOLD Trader role.\n\nPlease wait for an @Admin to assign your role.",
 
     "vt-close": "Congratulations, you are now a verified trader! <:MGT_VerifiedTrader:1180646943811182592>\n\nCan you lastly confirm you have read and understood our <#1178281986268352582> & <#1175510897255526510> please :pray:\n\nPlease be advised that if any violations of these are found, there will be consequences & you’ll risk losing your VTR :heart:",
 
