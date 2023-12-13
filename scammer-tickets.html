@@ -7,7 +7,7 @@
     <style>
         body {
             padding-top: 70px;
-            padding-bottom: 1750px;
+            padding-bottom: 100px;
             background-color: #313338;
             font-family: 'gg-sans', sans-serif;
             color: white;
@@ -21,7 +21,6 @@
             text-align: center;
             padding: 0px;
         }
-
         .container {
             text-align: center;
             margin: 20px;
@@ -39,6 +38,16 @@
             text-align: left;
             font-weight: bold;
             padding-bottom: 5px;
+        }
+        .texts {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+            width: 300px;
+            margin: 0 auto;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
         }
         .button:hover {
             background-color: #3572c9;
@@ -103,15 +112,31 @@
     <header>
         <h1>Scammer Tickets</h1>
         <h5>MONOPOLY GO Trading</h5>
-        <a href="support-index.html" class="back-button">Back</a>
+        <a href="trading-index.html" class="back-button">Back</a>
         <a href="index.html" class="back-button">Home</a>
     </header>
     <br></br>
     <div class="copyTextContainer">
-        <label class="label">SCOPELY COMPENSATION</label>
-        <button id="copyCommand8" class="command" onclick="CommandsCopy(8)">sticker-recovery</button>
-        <textarea id="sticker-recovery" class="copyText" readonly></textarea>
-        <button class="copyButton" onclick="copyToClipboard('3for3')">Copy</button>
+        <label class="label">SCAMMER TICKET INTRO</label>
+        <button id="copyCommand18" class="command" onclick="CommandsCopy(18)">scam-intro</button>
+        <textarea id="scam-intro" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('scam-intro')">Copy</button>
+    </div>
+    <div class="texts">
+        - Restrict the alleged scammer<br><br>
+        - If they blocked, unfriended, deleted link, or left server = request for **BAN**<br><br>
+        - 0 rep, new account, just joined = request for **BAN**<br><br>
+        - Do request ban inside the ticket, tag available Mod or higher up.<br><br>
+        - Do `/scammer send-id` and `/scammer announce`<br><br>
+        - Give steps to potentially recover the sticker.<br><br>
+        - Don't hesitate to use the timeout function if it is getting too heated.<br><br>
+        - Stay calm. <br><br>
+       </div>
+    <div class="copyTextContainer">
+        <label class="label">SCOPELY STICKER COMPENSATION</label>
+        <button id="copyCommand20" class="command" onclick="CommandsCopy(20)">sticker-rec</button>
+        <textarea id="sticker-rec" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('sticker-rec')">Copy</button>
     </div>
     <script src="script.js"></script>
     
@@ -137,7 +162,7 @@
     </script> 
 </body>
 <header>
-    <a href="support-index.html" class="back-button">Back</a>
+    <a href="trading-index.html" class="back-button">Back</a>
     <a href="index.html" class="back-button">Home</a>
 </header>
 </html>
