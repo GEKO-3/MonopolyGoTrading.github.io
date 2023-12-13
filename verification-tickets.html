@@ -6,25 +6,25 @@
     <title>Verification Tickets</title>
     <style>
         body {
-            padding-top: 100px;
-            padding-bottom: 950px;
-            background-color: #313338; /* Set the background color of the body */
-            font-family: 'gg-sans', sans-serif; /* Apply 'gg-sans' as the font family for the entire page */
-            color: white; /* Set the text color to white for the entire page */
+            padding-top: 70px;
+            padding-bottom: 1750px;
+            background-color: #313338;
+            font-family: 'gg-sans', sans-serif;
+            color: white;
             align-items: center;
             justify-content: center;
             height: 100vh;
         }
 
         header {
-            background-color: #313338; /* Set the header background color */
+            background-color: #313338;
             text-align: center;
-            padding: 5px; /* Add padding to the header */
+            padding: 0px;
         }
 
         .container {
             text-align: center;
-            margin: 20px; /* Smaller margin to reduce space between header and body */
+            margin: 20px;
         }
         .copyTextContainer {
             width: 300px;
@@ -33,20 +33,23 @@
             display: flex;
             flex-direction: column;
             position: relative;
-            margin-bottom: 20px; /* Add spacing between text boxes */
+            margin-bottom: 20px;
         }
         .label {
-            text-align: left; /* Align the label to the left */
-            font-weight: bold; /* Make the labels bold */
-            padding-bottom: 10px; /* Add more spacing between the label and text area */
+            text-align: left;
+            font-weight: bold;
+            padding-bottom: 5px;
+        }
+        .button:hover {
+            background-color: #3572c9;
         }
         .copyText {
             width: 100%;
-            height: 100px; /* Fixed height in pixels */
+            height: 100px;
             padding: 10px;
-            background-color: #1e1f22; /* Set the text area background color */
-            color: #777a82; /* Set the text color to #777a82 inside the text areas */
-            border: none; /* Remove the outline or border */
+            background-color: #1e1f22;
+            color: #777a82;
+            border: none;
         }
         .copyButton {
             position: absolute;
@@ -54,64 +57,105 @@
             right: 0;
             padding: 10px 20px;
             cursor: pointer;
-            background-color: #5865f2; /* Set the button background color */
-            color: white; /* Set text color to white for the button */
-            border: none; /* Remove button border */
-            outline: none; /* Remove button outline */
-            border-radius: 5px; /* Add rounded corners */
+            background-color: #5865f2; 
+            color: white; 
+            border: none; 
+            outline: none; 
+            border-radius: 5px;
+        }
+        .back-button,
+        .home-button {
+            padding: 6px;
+            font-family: 'ggsansSemibold', sans-serif;
+            font-size: 14px;
+            width: 200px;
+            text-align: center;
+            background-color: rgb(34, 30, 32);
+            color: #777a82;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+        }
+        .command {
+            position:absolute;
+            padding: 6px;
+            font-family:  'Courier New', Courier, monospace;
+            font-size: 12px;
+            width: 110px;
+            text-align: center;
+            background-color: #494949;
+            color: #e2e2e2;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            right: 0; /
+        }
+        text {
+            font-family:  'Courier New', Courier, monospace;
+            font-size: 12px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Verification Tickets</h1>
+        <h5>MONOPOLY GO Trading</h5>
+        <a href="support-index.html" class="back-button">Back</a>
+        <a href="index.html" class="back-button">Home</a>
     </header>
-    <div class="container">
-        <!-- Text Box 1 -->
-        <div class="copyTextContainer">
-            <label for="copyText1" class="label">VERIFICATION ACTION LIST</label>
-            <textarea id="copyText1" class="copyText" readonly>
-Verification:
-- Check in <#1159695083881369623> if they were blocked
-- Use /panel if not blocked, ask them to check for DMs from Double Counter</textarea>
-            <button class="copyButton" onclick="copyToClipboard(1)">Copy</button>
-        </div>
-        
-        <!-- Text Box 2 -->
-        <div class="copyTextContainer">
-            <label for="copyText2" class="label">BLOCKED DUE TO VPN</label>
-            <textarea id="copyText2" class="copyText" readonly>
-iOS:
-## Using iOS 17 or older and stopped for a VPN?
-If this has happened to you, it may be due to some new features and settings released with iOS 15.
-
-Turn off the following settings:
-- Settings > Safari > Hide IP
-- Apple ID > iCloud > Private Relay
-
-Make sure it is turned off prior to your verification attempt. Once you have successfully verified, you are free to turn it back on.</textarea>
-            <button class="copyButton" onclick="copyToClipboard(2)">Copy</button>
-        </div>
-        
-        <!-- Text Box 3 -->
-        <div class="copyTextContainer">
-            <label for="copyText3" class="label">BLOCKED DUE TO ALT ACCOUNT | ACTION LIST</label>
-            <textarea id="copyText3" class="copyText" readonly>- if blocked due to Alt account:
- - Check if the connected account is banned
- - Ask if they are sharing a wifi connection with someone who also uses discord.
- - Confirm the username
- - Tag `@admin` for manual verification</textarea>
-            <button class="copyButton" onclick="copyToClipboard(3)">Copy</button>
-        </div>
-
+    <br></br>
+    <div class="copyTextContainer">
+        <label class="label">VERIFY WELCOME MESSAGE</label>
+        <button id="copyCommand8" class="command" onclick="CommandsCopy(8)">verify-welcome</button>
+        <textarea id="verify-welcome" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('3for3')">Copy</button>
     </div>
-
+    <div class="copyTextContainer">
+        <label class="label">HOW TO VERIFY</label>
+        <button id="copyCommand3" class="command" onclick="CommandsCopy(3)">verify-howto</button>
+        <textarea id="verify-howto" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('spam')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">VERIFY WITH /PANEL</label>
+        <button id="copyCommand4" class="command" onclick="CommandsCopy(4)">verify-dc</button>
+        <textarea id="verify-dc" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('specify')">Copy</button>
+    </div>
+    <div class="copyTextContainer">
+        <label class="label">BLOCKED DUE TO VPN</label>
+        <button id="copyCommand14" class="command" onclick="CommandsCopy(14)">verify-vpnios</button>
+        <textarea id="verify-vpnios" class="copyText" readonly></textarea>
+        <button class="copyButton" onclick="copyToClipboard('gb3')">Copy</button>
+    </div>
+    <script src="script.js"></script>
+    
     <script>
-        function copyToClipboard(index) {
-            const copyText = document.getElementById(`copyText${index}`);
+    function copyToClipboard(id) {
+        const copyText = document.getElementById(id);
+        if (copyText) {
             copyText.select();
             document.execCommand("copy");
         }
-    </script>
+    }   
+    function CommandsCopy(index) {
+        const copyCommand = document.getElementById(`copyCommand${index}`);
+        const commandText = copyCommand.innerText || copyCommand.textContent;
+        const tempTextarea = document.createElement("textarea");
+            tempTextarea.value = commandText;
+            document.body.appendChild(tempTextarea);
+            tempTextarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempTextarea);
+    }
+
+    </script> 
 </body>
+<header>
+    <a href="support-index.html" class="back-button">Back</a>
+    <a href="index.html" class="back-button">Home</a>
+</header>
 </html>
