@@ -53,6 +53,8 @@
 
     "vt-image": "[See the image below](https://cdn.discordapp.com/attachments/1179463701418496052/1183277420262989956/Verified_Trader_Help.png?ex=6587bff9&is=65754af9&hm=805145a94898a53ebb503a6fcdc5a14281a0ed5bbacfa7cf551270511864dd8b&)",
 
+    "vt-dms": "**Please follow the steps below to access closed DMs:**\n\n1. Go to the Search bar of the Monopoly Go! Trading\n2. Click the ≡ on the right side of the bar\n3. Choose the option *“mentions:”* then type your username\n4. Click the ≡ again and choose option *“in:”* then type <#1103636498177327104>\n5. Once the result is on view, choose any user that have rep’d you and click *“Jump to Message”*\n6. Click the User’s profile to access the *“message”* button and it will directly send you to the user’s DM and you can check your conversation again.\n7. Repeat the steps, until you collect enough screenshots\n\n[See video example below](https://cdn.discordapp.com/attachments/1175451636638941254/1196980612393869363/2024_01_15_18_27_20.mov?ex=65b99a10&is=65a72510&hm=8d7c94778f19e80e17caf6f73c1d0d4c56ca07def7eced7777b3758887bb4759&)",
+
     "tgt-intro": "It looks like you have earned enough trading Rep to apply for the Verified GOLD Trader Role.\n\n- We would like to see proof of 5 successful GOLDEN BLITZ trades.\n- All Trades must be 4<:MG_Star:1151577541786738769> or 5<:MG_Star:1151577541786738769> trades sent by __you__.\n\nWe would appreciate your kind understanding to help us label your trades such as the following:\n\nTraded with [Member] (Oh My Gems for Silhouette Night)\n\n[insert your screenshots here]\n\nTraded with [Member] (Footprints for Plunderful)\n\n[insert your screenshots here]\n\nSee the [image](https://cdn.discordapp.com/attachments/1148370897405743165/1183304532713812050/Verified_Trader_Help.jpg) below for reference.",
 
     "tgt-void": "The verified GOLD trader requirement is at least 65 rep.\n\nUnfortunately, you do not have enough reps to apply for this role. We encourage you to reapply for this role once you have fulfilled the requirements.\n\nIf you have any questions feel free to ask. If not please accept close request",
@@ -98,6 +100,10 @@
     "vt-gen": "## This channel is NOT for trading!\n\nPlease use https://discord.com/channels/1103427931256131745/1180227424647131199 , further infractions may result in removal of your VT role.",
 
     "general": "## <a:houten_alarm:1167907018720415809> PLEASE USE  THE PROPER TRADING CHANNELS!!<a:houten_alarm:1167907018720415809>\n\n<#1175510897255526510>\n<#1127013542185422911>\n<#1129517788705341561>\n<#1129517817151107124>\n<#1129518175189487667>\n<#1129517987536306318>\n<#1129518242273177650>\n<#1183688497383616572>\n\n### Further trading in this channel may result in an infraction/warning.",
+
+    "general2": "## Please be mindful and avoid trading or advertising trades in general chats.\n\nYou may *flex* what you receive from sticker packs, tournaments, milestone events or challenges, but please use the appropriate trading channels if you are looking for trades/donations.\n\nSee our <#1178281986268352582>",
+
+    "exploit": "## <a:houten_alarm:1167907018720415809> No exploit chat in this server! <a:houten_alarm:1167907018720415809> Take it to the DMs.",
 
     "sleep": "Go to sleep, you have been up for so long",
 
